@@ -7,11 +7,55 @@
   <graph defaultedgetype="undirected" mode="static">
     <attributes class="node" mode="static">
       <attribute id="count" title="count" type="integer"></attribute>
+      <attribute id="degree" title="Degree" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="weighted degree" title="Weighted Degree" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="eccentricity" title="Eccentricity" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="closnesscentrality" title="Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="harmonicclosnesscentrality" title="Harmonic Closeness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="betweenesscentrality" title="Betweenness Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="clustering" title="Clustering Coefficient" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="triangles" title="Number of triangles" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="eigencentrality" title="Eigenvector Centrality" type="double">
+        <default>0.0</default>
+      </attribute>
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+      <attribute id="componentnumber" title="Component ID" type="integer">
+        <default>0</default>
+      </attribute>
     </attributes>
     <nodes>
       <node id="Gutzmer R" label="Gutzmer R">
         <attvalues>
           <attvalue for="count" value="15"></attvalue>
+          <attvalue for="degree" value="32"></attvalue>
+          <attvalue for="weighted degree" value="87.0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.36213991769547327"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5631764069264071"></attvalue>
+          <attvalue for="betweenesscentrality" value="98.0424936522289"></attvalue>
+          <attvalue for="clustering" value="0.4737903225806452"></attvalue>
+          <attvalue for="triangles" value="235"></attvalue>
+          <attvalue for="eigencentrality" value="1.0"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="64.0"></viz:size>
         <viz:position x="431.52048" y="182.63235"></viz:position>
@@ -20,6 +64,17 @@
       <node id="Hassel JC" label="Hassel JC">
         <attvalues>
           <attvalue for="count" value="23"></attvalue>
+          <attvalue for="degree" value="36"></attvalue>
+          <attvalue for="weighted degree" value="97.0"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4292682926829268"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.6170454545454546"></attvalue>
+          <attvalue for="betweenesscentrality" value="632.8833685509013"></attvalue>
+          <attvalue for="clustering" value="0.35873015873015873"></attvalue>
+          <attvalue for="triangles" value="226"></attvalue>
+          <attvalue for="eigencentrality" value="0.9706194339178114"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="100.0"></viz:size>
         <viz:position x="420.0305" y="-34.210464"></viz:position>
@@ -28,6 +83,17 @@
       <node id="Caydasi AK" label="Caydasi AK">
         <attvalues>
           <attvalue for="count" value="8"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="weighted degree" value="11.0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+          <attvalue for="eigencentrality" value="0.0016501764170044223"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="componentnumber" value="1"></attvalue>
         </attvalues>
         <viz:size value="32.5"></viz:size>
         <viz:position x="757.1709" y="604.59534"></viz:position>
@@ -36,6 +102,17 @@
       <node id="Pereira G" label="Pereira G">
         <attvalues>
           <attvalue for="count" value="11"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="weighted degree" value="12.0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+          <attvalue for="eigencentrality" value="0.0016501764170044223"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="componentnumber" value="1"></attvalue>
         </attvalues>
         <viz:size value="46.0"></viz:size>
         <viz:position x="557.0358" y="645.0418"></viz:position>
@@ -44,6 +121,17 @@
       <node id="Schadendorf D" label="Schadendorf D">
         <attvalues>
           <attvalue for="count" value="18"></attvalue>
+          <attvalue for="degree" value="26"></attvalue>
+          <attvalue for="weighted degree" value="70.0"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.39819004524886875"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5547348484848486"></attvalue>
+          <attvalue for="betweenesscentrality" value="277.38546426568115"></attvalue>
+          <attvalue for="clustering" value="0.49538461538461537"></attvalue>
+          <attvalue for="triangles" value="161"></attvalue>
+          <attvalue for="eigencentrality" value="0.8096242352471827"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="77.5"></viz:size>
         <viz:position x="651.17505" y="96.504814"></viz:position>
@@ -52,6 +140,17 @@
       <node id="Schilling B" label="Schilling B">
         <attvalues>
           <attvalue for="count" value="10"></attvalue>
+          <attvalue for="degree" value="22"></attvalue>
+          <attvalue for="weighted degree" value="39.0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.34509803921568627"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5025703463203466"></attvalue>
+          <attvalue for="betweenesscentrality" value="17.404462007683566"></attvalue>
+          <attvalue for="clustering" value="0.6536796536796536"></attvalue>
+          <attvalue for="triangles" value="151"></attvalue>
+          <attvalue for="eigencentrality" value="0.7965907344006705"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="41.5"></viz:size>
         <viz:position x="442.9184" y="339.3754"></viz:position>
@@ -60,6 +159,17 @@
       <node id="Schirmacher P" label="Schirmacher P">
         <attvalues>
           <attvalue for="count" value="9"></attvalue>
+          <attvalue for="degree" value="12"></attvalue>
+          <attvalue for="weighted degree" value="36.0"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3776824034334764"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4511363636363637"></attvalue>
+          <attvalue for="betweenesscentrality" value="165.54525705699746"></attvalue>
+          <attvalue for="clustering" value="0.7272727272727273"></attvalue>
+          <attvalue for="triangles" value="48"></attvalue>
+          <attvalue for="eigencentrality" value="0.08780274724982876"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="37.0"></viz:size>
         <viz:position x="-325.71423" y="-376.92758"></viz:position>
@@ -68,6 +178,17 @@
       <node id="Stenzinger A" label="Stenzinger A">
         <attvalues>
           <attvalue for="count" value="9"></attvalue>
+          <attvalue for="degree" value="11"></attvalue>
+          <attvalue for="weighted degree" value="36.0"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3682008368200837"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4378787878787879"></attvalue>
+          <attvalue for="betweenesscentrality" value="10.887735813191458"></attvalue>
+          <attvalue for="clustering" value="0.8545454545454545"></attvalue>
+          <attvalue for="triangles" value="47"></attvalue>
+          <attvalue for="eigencentrality" value="0.0856283377121445"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="37.0"></viz:size>
         <viz:position x="-153.27982" y="-532.6416"></viz:position>
@@ -76,6 +197,17 @@
       <node id="Behren A" label="Behren A">
         <attvalues>
           <attvalue for="count" value="6"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="weighted degree" value="10.0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+          <attvalue for="eigencentrality" value="0.0016501764170044223"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
         </attvalues>
         <viz:size value="23.5"></viz:size>
         <viz:position x="82.16758" y="801.8487"></viz:position>
@@ -84,6 +216,17 @@
       <node id="Cebon J" label="Cebon J">
         <attvalues>
           <attvalue for="count" value="8"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="weighted degree" value="11.0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+          <attvalue for="eigencentrality" value="0.0016501764170044223"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
         </attvalues>
         <viz:size value="32.5"></viz:size>
         <viz:position x="-106.72847" y="785.2263"></viz:position>
@@ -92,6 +235,17 @@
       <node id="Livingstone E" label="Livingstone E">
         <attvalues>
           <attvalue for="count" value="6"></attvalue>
+          <attvalue for="degree" value="13"></attvalue>
+          <attvalue for="weighted degree" value="26.0"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3682008368200837"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.47140151515151524"></attvalue>
+          <attvalue for="betweenesscentrality" value="37.38037770129843"></attvalue>
+          <attvalue for="clustering" value="0.8205128205128205"></attvalue>
+          <attvalue for="triangles" value="64"></attvalue>
+          <attvalue for="eigencentrality" value="0.5042163666524913"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="23.5"></viz:size>
         <viz:position x="487.36707" y="469.2737"></viz:position>
@@ -100,6 +254,17 @@
       <node id="Loquai C" label="Loquai C">
         <attvalues>
           <attvalue for="count" value="9"></attvalue>
+          <attvalue for="degree" value="25"></attvalue>
+          <attvalue for="weighted degree" value="75.0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.352"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.52340367965368"></attvalue>
+          <attvalue for="betweenesscentrality" value="23.51705019528856"></attvalue>
+          <attvalue for="clustering" value="0.66"></attvalue>
+          <attvalue for="triangles" value="198"></attvalue>
+          <attvalue for="eigencentrality" value="0.8962853822131438"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="37.0"></viz:size>
         <viz:position x="295.08682" y="251.05157"></viz:position>
@@ -108,6 +273,17 @@
       <node id="Zimmer L" label="Zimmer L">
         <attvalues>
           <attvalue for="count" value="9"></attvalue>
+          <attvalue for="degree" value="24"></attvalue>
+          <attvalue for="weighted degree" value="59.0"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3963963963963964"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5452651515151515"></attvalue>
+          <attvalue for="betweenesscentrality" value="174.4285196843011"></attvalue>
+          <attvalue for="clustering" value="0.6231884057971014"></attvalue>
+          <attvalue for="triangles" value="172"></attvalue>
+          <attvalue for="eigencentrality" value="0.8426090257952035"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="37.0"></viz:size>
         <viz:position x="279.77237" y="409.53702"></viz:position>
@@ -116,6 +292,17 @@
       <node id="Budczies J" label="Budczies J">
         <attvalues>
           <attvalue for="count" value="6"></attvalue>
+          <attvalue for="degree" value="10"></attvalue>
+          <attvalue for="weighted degree" value="27.0"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.36363636363636365"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4293560606060606"></attvalue>
+          <attvalue for="betweenesscentrality" value="7.0201273123012236"></attvalue>
+          <attvalue for="clustering" value="0.8888888888888888"></attvalue>
+          <attvalue for="triangles" value="40"></attvalue>
+          <attvalue for="eigencentrality" value="0.08033675974461348"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="23.5"></viz:size>
         <viz:position x="-26.659225" y="-650.32306"></viz:position>
@@ -124,6 +311,17 @@
       <node id="Berking C" label="Berking C">
         <attvalues>
           <attvalue for="count" value="8"></attvalue>
+          <attvalue for="degree" value="24"></attvalue>
+          <attvalue for="weighted degree" value="53.0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3464566929133858"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5129870129870132"></attvalue>
+          <attvalue for="betweenesscentrality" value="79.56049648490225"></attvalue>
+          <attvalue for="clustering" value="0.6159420289855072"></attvalue>
+          <attvalue for="triangles" value="170"></attvalue>
+          <attvalue for="eigencentrality" value="0.8385703549337665"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="32.5"></viz:size>
         <viz:position x="276.3339" y="97.1709"></viz:position>
@@ -132,6 +330,17 @@
       <node id="Hauschild A" label="Hauschild A">
         <attvalues>
           <attvalue for="count" value="6"></attvalue>
+          <attvalue for="degree" value="19"></attvalue>
+          <attvalue for="weighted degree" value="30.0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.34108527131782945"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.485524891774892"></attvalue>
+          <attvalue for="betweenesscentrality" value="20.705427165999918"></attvalue>
+          <attvalue for="clustering" value="0.6140350877192983"></attvalue>
+          <attvalue for="triangles" value="105"></attvalue>
+          <attvalue for="eigencentrality" value="0.6209440800285937"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="23.5"></viz:size>
         <viz:position x="787.4106" y="158.65414"></viz:position>
@@ -140,6 +349,17 @@
       <node id="Roesch A" label="Roesch A">
         <attvalues>
           <attvalue for="count" value="6"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="weighted degree" value="31.0"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3826086956521739"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5149621212121214"></attvalue>
+          <attvalue for="betweenesscentrality" value="118.6394974698663"></attvalue>
+          <attvalue for="clustering" value="0.6684210526315789"></attvalue>
+          <attvalue for="triangles" value="127"></attvalue>
+          <attvalue for="eigencentrality" value="0.7228742202426024"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="23.5"></viz:size>
         <viz:position x="214.87741" y="-224.26027"></viz:position>
@@ -148,6 +368,17 @@
       <node id="Lee FT" label="Lee FT">
         <attvalues>
           <attvalue for="count" value="5"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+          <attvalue for="weighted degree" value="13.0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="3"></attvalue>
+          <attvalue for="eigencentrality" value="0.0031095959835167252"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="componentnumber" value="3"></attvalue>
         </attvalues>
         <viz:size value="19.0"></viz:size>
         <viz:position x="216.16093" y="922.0944"></viz:position>
@@ -156,6 +387,17 @@
       <node id="Scott AM" label="Scott AM">
         <attvalues>
           <attvalue for="count" value="6"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+          <attvalue for="weighted degree" value="13.0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="3"></attvalue>
+          <attvalue for="eigencentrality" value="0.0031095959835167252"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="componentnumber" value="3"></attvalue>
         </attvalues>
         <viz:size value="23.5"></viz:size>
         <viz:position x="376.38943" y="885.6422"></viz:position>
@@ -164,6 +406,17 @@
       <node id="Woods K" label="Woods K">
         <attvalues>
           <attvalue for="count" value="5"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="weighted degree" value="9.0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+          <attvalue for="eigencentrality" value="0.0016501764170044223"></attvalue>
+          <attvalue for="modularity_class" value="3"></attvalue>
+          <attvalue for="componentnumber" value="2"></attvalue>
         </attvalues>
         <viz:size value="19.0"></viz:size>
         <viz:position x="35.46981" y="959.7232"></viz:position>
@@ -172,6 +425,17 @@
       <node id="Fokas E" label="Fokas E">
         <attvalues>
           <attvalue for="count" value="6"></attvalue>
+          <attvalue for="degree" value="5"></attvalue>
+          <attvalue for="weighted degree" value="18.0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.21153846153846154"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.2691017316017317"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="10"></attvalue>
+          <attvalue for="eigencentrality" value="0.010635325359483755"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="23.5"></viz:size>
         <viz:position x="-670.3442" y="130.74654"></viz:position>
@@ -180,6 +444,17 @@
       <node id="Martin D" label="Martin D">
         <attvalues>
           <attvalue for="count" value="5"></attvalue>
+          <attvalue for="degree" value="5"></attvalue>
+          <attvalue for="weighted degree" value="18.0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.21153846153846154"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.2691017316017317"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="10"></attvalue>
+          <attvalue for="eigencentrality" value="0.010635325359483755"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="19.0"></viz:size>
         <viz:position x="-854.7362" y="77.1739"></viz:position>
@@ -188,6 +463,17 @@
       <node id="Rödel C" label="Rödel C">
         <attvalues>
           <attvalue for="count" value="5"></attvalue>
+          <attvalue for="degree" value="5"></attvalue>
+          <attvalue for="weighted degree" value="18.0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.21153846153846154"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.2691017316017317"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="10"></attvalue>
+          <attvalue for="eigencentrality" value="0.010635325359483755"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="19.0"></viz:size>
         <viz:position x="-754.12134" y="266.0854"></viz:position>
@@ -196,6 +482,17 @@
       <node id="Bender C" label="Bender C">
         <attvalues>
           <attvalue for="count" value="5"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+          <attvalue for="weighted degree" value="11.0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3087719298245614"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.38495670995670983"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.3333333333333333"></attvalue>
+          <attvalue for="clustering" value="0.8333333333333334"></attvalue>
+          <attvalue for="triangles" value="5"></attvalue>
+          <attvalue for="eigencentrality" value="0.1386466602327046"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="19.0"></viz:size>
         <viz:position x="670.9752" y="445.37268"></viz:position>
@@ -204,6 +501,17 @@
       <node id="Gogolin S" label="Gogolin S">
         <attvalues>
           <attvalue for="count" value="5"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+          <attvalue for="weighted degree" value="9.0"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.25287356321839083"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.2916666666666665"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="3"></attvalue>
+          <attvalue for="eigencentrality" value="0.006017746358187708"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="19.0"></viz:size>
         <viz:position x="-462.94672" y="391.21826"></viz:position>
@@ -212,6 +520,17 @@
       <node id="Westermann F" label="Westermann F">
         <attvalues>
           <attvalue for="count" value="6"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+          <attvalue for="weighted degree" value="9.0"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.25287356321839083"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.2916666666666665"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="3"></attvalue>
+          <attvalue for="eigencentrality" value="0.006017746358187709"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="23.5"></viz:size>
         <viz:position x="-246.40631" y="386.47202"></viz:position>
@@ -220,6 +539,17 @@
       <node id="Göppner D" label="Göppner D">
         <attvalues>
           <attvalue for="count" value="5"></attvalue>
+          <attvalue for="degree" value="20"></attvalue>
+          <attvalue for="weighted degree" value="47.0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3424124513618677"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4912067099567102"></attvalue>
+          <attvalue for="betweenesscentrality" value="7.201439104145749"></attvalue>
+          <attvalue for="clustering" value="0.7842105263157895"></attvalue>
+          <attvalue for="triangles" value="149"></attvalue>
+          <attvalue for="eigencentrality" value="0.7593595919495658"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="19.0"></viz:size>
         <viz:position x="-14.01347" y="162.45384"></viz:position>
@@ -228,6 +558,17 @@
       <node id="Kähler KC" label="Kähler KC">
         <attvalues>
           <attvalue for="count" value="5"></attvalue>
+          <attvalue for="degree" value="19"></attvalue>
+          <attvalue for="weighted degree" value="37.0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3424124513618677"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4874188311688314"></attvalue>
+          <attvalue for="betweenesscentrality" value="9.634810411201265"></attvalue>
+          <attvalue for="clustering" value="0.7777777777777778"></attvalue>
+          <attvalue for="triangles" value="133"></attvalue>
+          <attvalue for="eigencentrality" value="0.716756973241292"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="19.0"></viz:size>
         <viz:position x="-49.41459" y="13.926058"></viz:position>
@@ -236,6 +577,17 @@
       <node id="Kreis NN" label="Kreis NN">
         <attvalues>
           <attvalue for="count" value="5"></attvalue>
+          <attvalue for="degree" value="5"></attvalue>
+          <attvalue for="weighted degree" value="13.0"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.24929178470254956"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.30530303030303013"></attvalue>
+          <attvalue for="betweenesscentrality" value="27.333333333333385"></attvalue>
+          <attvalue for="clustering" value="0.8"></attvalue>
+          <attvalue for="triangles" value="8"></attvalue>
+          <attvalue for="eigencentrality" value="0.010821063170052922"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="19.0"></viz:size>
         <viz:position x="-956.6998" y="-45.476604"></viz:position>
@@ -244,6 +596,17 @@
       <node id="Yuan J" label="Yuan J">
         <attvalues>
           <attvalue for="count" value="8"></attvalue>
+          <attvalue for="degree" value="5"></attvalue>
+          <attvalue for="weighted degree" value="16.0"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.24929178470254956"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.30530303030303013"></attvalue>
+          <attvalue for="betweenesscentrality" value="27.333333333333385"></attvalue>
+          <attvalue for="clustering" value="0.8"></attvalue>
+          <attvalue for="triangles" value="8"></attvalue>
+          <attvalue for="eigencentrality" value="0.010821063170052922"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="32.5"></viz:size>
         <viz:position x="-939.8014" y="-212.30855"></viz:position>
@@ -252,6 +615,17 @@
       <node id="Endris V" label="Endris V">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="10"></attvalue>
+          <attvalue for="weighted degree" value="24.0"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.34509803921568627"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.41155303030303025"></attvalue>
+          <attvalue for="betweenesscentrality" value="4.803100303773341"></attvalue>
+          <attvalue for="clustering" value="0.8888888888888888"></attvalue>
+          <attvalue for="triangles" value="40"></attvalue>
+          <attvalue for="eigencentrality" value="0.0726746171545469"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="-488.75967" y="-602.0451"></viz:position>
@@ -260,6 +634,17 @@
       <node id="Fröhling S" label="Fröhling S">
         <attvalues>
           <attvalue for="count" value="6"></attvalue>
+          <attvalue for="degree" value="15"></attvalue>
+          <attvalue for="weighted degree" value="28.0"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.42718446601941745"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5136363636363639"></attvalue>
+          <attvalue for="betweenesscentrality" value="721.1897717185625"></attvalue>
+          <attvalue for="clustering" value="0.4666666666666667"></attvalue>
+          <attvalue for="triangles" value="49"></attvalue>
+          <attvalue for="eigencentrality" value="0.2574804718812419"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="23.5"></viz:size>
         <viz:position x="12.118964" y="-292.70016"></viz:position>
@@ -268,6 +653,17 @@
       <node id="O'Keefe GJ" label="O'Keefe GJ">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+          <attvalue for="weighted degree" value="12.0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="3"></attvalue>
+          <attvalue for="eigencentrality" value="0.0031095959835167252"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="componentnumber" value="3"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="409.74448" y="729.89655"></viz:position>
@@ -276,6 +672,17 @@
       <node id="Rigopoulos A" label="Rigopoulos A">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+          <attvalue for="weighted degree" value="12.0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="3"></attvalue>
+          <attvalue for="eigencentrality" value="0.0031095959835167252"></attvalue>
+          <attvalue for="modularity_class" value="5"></attvalue>
+          <attvalue for="componentnumber" value="3"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="567.25726" y="790.5942"></viz:position>
@@ -284,6 +691,17 @@
       <node id="John T" label="John T">
         <attvalues>
           <attvalue for="count" value="5"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="weighted degree" value="6.0"></attvalue>
+          <attvalue for="eccentricity" value="8.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.20137299771167047"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.2289096320346319"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+          <attvalue for="eigencentrality" value="0.002286066899074581"></attvalue>
+          <attvalue for="modularity_class" value="10"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="19.0"></viz:size>
         <viz:position x="82.57004" y="-959.6827"></viz:position>
@@ -292,6 +710,17 @@
       <node id="Thapa B" label="Thapa B">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="weighted degree" value="6.0"></attvalue>
+          <attvalue for="eccentricity" value="8.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.20137299771167047"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.2289096320346319"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+          <attvalue for="eigencentrality" value="0.0022860668990745815"></attvalue>
+          <attvalue for="modularity_class" value="10"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="258.72412" y="-919.88995"></viz:position>
@@ -300,6 +729,17 @@
       <node id="Halama N" label="Halama N">
         <attvalues>
           <attvalue for="count" value="5"></attvalue>
+          <attvalue for="degree" value="5"></attvalue>
+          <attvalue for="weighted degree" value="8.0"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3682008368200837"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4323863636363636"></attvalue>
+          <attvalue for="betweenesscentrality" value="82.31428571428572"></attvalue>
+          <attvalue for="clustering" value="0.7"></attvalue>
+          <attvalue for="triangles" value="7"></attvalue>
+          <attvalue for="eigencentrality" value="0.08357734359581188"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="19.0"></viz:size>
         <viz:position x="688.9415" y="-384.1309"></viz:position>
@@ -308,6 +748,17 @@
       <node id="Jaeger D" label="Jaeger D">
         <attvalues>
           <attvalue for="count" value="13"></attvalue>
+          <attvalue for="degree" value="18"></attvalue>
+          <attvalue for="weighted degree" value="28.0"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4512820512820513"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5429924242424244"></attvalue>
+          <attvalue for="betweenesscentrality" value="1147.7684659482218"></attvalue>
+          <attvalue for="clustering" value="0.27450980392156865"></attvalue>
+          <attvalue for="triangles" value="42"></attvalue>
+          <attvalue for="eigencentrality" value="0.2158814307116611"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="55.0"></viz:size>
         <viz:position x="146.07129" y="-424.88174"></viz:position>
@@ -316,6 +767,17 @@
       <node id="Balermpas P" label="Balermpas P">
         <attvalues>
           <attvalue for="count" value="5"></attvalue>
+          <attvalue for="degree" value="6"></attvalue>
+          <attvalue for="weighted degree" value="18.0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.22055137844611528"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.28823051948051953"></attvalue>
+          <attvalue for="betweenesscentrality" value="28.911278195488727"></attvalue>
+          <attvalue for="clustering" value="0.7333333333333333"></attvalue>
+          <attvalue for="triangles" value="11"></attvalue>
+          <attvalue for="eigencentrality" value="0.01193746713912773"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="19.0"></viz:size>
         <viz:position x="-592.5134" y="-130.96317"></viz:position>
@@ -324,6 +786,17 @@
       <node id="Rödel F" label="Rödel F">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="6"></attvalue>
+          <attvalue for="weighted degree" value="15.0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.22055137844611528"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.28823051948051953"></attvalue>
+          <attvalue for="betweenesscentrality" value="28.911278195488727"></attvalue>
+          <attvalue for="clustering" value="0.7333333333333333"></attvalue>
+          <attvalue for="triangles" value="11"></attvalue>
+          <attvalue for="eigencentrality" value="0.01193746713912773"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="-732.0595" y="-29.469404"></viz:position>
@@ -332,6 +805,17 @@
       <node id="Enk A" label="Enk A">
         <attvalues>
           <attvalue for="count" value="6"></attvalue>
+          <attvalue for="degree" value="9"></attvalue>
+          <attvalue for="weighted degree" value="15.0"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3728813559322034"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.456060606060606"></attvalue>
+          <attvalue for="betweenesscentrality" value="40.89645139491658"></attvalue>
+          <attvalue for="clustering" value="0.5"></attvalue>
+          <attvalue for="triangles" value="18"></attvalue>
+          <attvalue for="eigencentrality" value="0.17325180019233433"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="23.5"></viz:size>
         <viz:position x="481.47507" y="-419.49933"></viz:position>
@@ -340,6 +824,17 @@
       <node id="Dummer R" label="Dummer R">
         <attvalues>
           <attvalue for="count" value="5"></attvalue>
+          <attvalue for="degree" value="16"></attvalue>
+          <attvalue for="weighted degree" value="28.0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.33587786259541985"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.466585497835498"></attvalue>
+          <attvalue for="betweenesscentrality" value="12.555645432998372"></attvalue>
+          <attvalue for="clustering" value="0.6583333333333333"></attvalue>
+          <attvalue for="triangles" value="79"></attvalue>
+          <attvalue for="eigencentrality" value="0.5191919083489211"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="19.0"></viz:size>
         <viz:position x="759.66833" y="277.12762"></viz:position>
@@ -348,6 +843,17 @@
       <node id="Grob JJ" label="Grob JJ">
         <attvalues>
           <attvalue for="count" value="5"></attvalue>
+          <attvalue for="degree" value="11"></attvalue>
+          <attvalue for="weighted degree" value="24.0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.32234432234432236"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4313582251082252"></attvalue>
+          <attvalue for="betweenesscentrality" value="2.999123948233855"></attvalue>
+          <attvalue for="clustering" value="0.7636363636363637"></attvalue>
+          <attvalue for="triangles" value="42"></attvalue>
+          <attvalue for="eigencentrality" value="0.3115448962912772"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="19.0"></viz:size>
         <viz:position x="756.4417" y="-219.03893"></viz:position>
@@ -356,6 +862,17 @@
       <node id="Denkert C" label="Denkert C">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="8"></attvalue>
+          <attvalue for="weighted degree" value="17.0"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.33587786259541985"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.3935606060606059"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="28"></attvalue>
+          <attvalue for="eigencentrality" value="0.06192822422742424"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="-349.10413" y="-718.56903"></viz:position>
@@ -364,6 +881,17 @@
       <node id="Karn T" label="Karn T">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="weighted degree" value="6.0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.20137299771167047"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.23436147186147174"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+          <attvalue for="eigencentrality" value="0.002631078139278077"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="-449.5128" y="-852.06476"></viz:position>
@@ -372,6 +900,17 @@
       <node id="Pusztai L" label="Pusztai L">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="weighted degree" value="6.0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.20137299771167047"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.23436147186147174"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+          <attvalue for="eigencentrality" value="0.002631078139278077"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="-585.8972" y="-749.351"></viz:position>
@@ -380,6 +919,17 @@
       <node id="Ugurel S" label="Ugurel S">
         <attvalues>
           <attvalue for="count" value="6"></attvalue>
+          <attvalue for="degree" value="19"></attvalue>
+          <attvalue for="weighted degree" value="41.0"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.38095238095238093"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5102272727272728"></attvalue>
+          <attvalue for="betweenesscentrality" value="77.015494455092"></attvalue>
+          <attvalue for="clustering" value="0.7543859649122807"></attvalue>
+          <attvalue for="triangles" value="129"></attvalue>
+          <attvalue for="eigencentrality" value="0.7255389919142224"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="23.5"></viz:size>
         <viz:position x="114.70502" y="359.58002"></viz:position>
@@ -388,6 +938,17 @@
       <node id="Forschner A" label="Forschner A">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="19"></attvalue>
+          <attvalue for="weighted degree" value="38.0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3424124513618677"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.48741883116883145"></attvalue>
+          <attvalue for="betweenesscentrality" value="7.758787797784677"></attvalue>
+          <attvalue for="clustering" value="0.7543859649122807"></attvalue>
+          <attvalue for="triangles" value="129"></attvalue>
+          <attvalue for="eigencentrality" value="0.7224675439387389"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="137.51518" y="204.96288"></viz:position>
@@ -396,6 +957,17 @@
       <node id="Meier F" label="Meier F">
         <attvalues>
           <attvalue for="count" value="7"></attvalue>
+          <attvalue for="degree" value="24"></attvalue>
+          <attvalue for="weighted degree" value="52.0"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.4036697247706422"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.546969696969697"></attvalue>
+          <attvalue for="betweenesscentrality" value="188.27529540671793"></attvalue>
+          <attvalue for="clustering" value="0.6195652173913043"></attvalue>
+          <attvalue for="triangles" value="171"></attvalue>
+          <attvalue for="eigencentrality" value="0.8414546970436828"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="28.0"></viz:size>
         <viz:position x="173.78334" y="-118.8279"></viz:position>
@@ -404,6 +976,17 @@
       <node id="Heinzerling L" label="Heinzerling L">
         <attvalues>
           <attvalue for="count" value="6"></attvalue>
+          <attvalue for="degree" value="25"></attvalue>
+          <attvalue for="weighted degree" value="46.0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3492063492063492"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5196158008658012"></attvalue>
+          <attvalue for="betweenesscentrality" value="19.626632260704206"></attvalue>
+          <attvalue for="clustering" value="0.6466666666666666"></attvalue>
+          <attvalue for="triangles" value="194"></attvalue>
+          <attvalue for="eigencentrality" value="0.8915039038609067"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="23.5"></viz:size>
         <viz:position x="133.64232" y="33.219856"></viz:position>
@@ -412,6 +995,17 @@
       <node id="Utikal J" label="Utikal J">
         <attvalues>
           <attvalue for="count" value="6"></attvalue>
+          <attvalue for="degree" value="21"></attvalue>
+          <attvalue for="weighted degree" value="37.0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3562753036437247"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.5067370129870132"></attvalue>
+          <attvalue for="betweenesscentrality" value="166.8231371169469"></attvalue>
+          <attvalue for="clustering" value="0.6190476190476191"></attvalue>
+          <attvalue for="triangles" value="130"></attvalue>
+          <attvalue for="eigencentrality" value="0.7327100948580896"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="23.5"></viz:size>
         <viz:position x="398.05878" y="-204.61052"></viz:position>
@@ -420,6 +1014,17 @@
       <node id="Abdel-Rahman O" label="Abdel-Rahman O">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="7"></attvalue>
+          <attvalue for="weighted degree" value="28.0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="21"></attvalue>
+          <attvalue for="eigencentrality" value="0.017751785460601993"></attvalue>
+          <attvalue for="modularity_class" value="6"></attvalue>
+          <attvalue for="componentnumber" value="4"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="-293.14774" y="881.50793"></viz:position>
@@ -428,6 +1033,17 @@
       <node id="Giryes A" label="Giryes A">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="7"></attvalue>
+          <attvalue for="weighted degree" value="28.0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="21"></attvalue>
+          <attvalue for="eigencentrality" value="0.017751785460601993"></attvalue>
+          <attvalue for="modularity_class" value="6"></attvalue>
+          <attvalue for="componentnumber" value="4"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="-349.35028" y="529.9053"></viz:position>
@@ -436,6 +1052,17 @@
       <node id="Helbling D" label="Helbling D">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="7"></attvalue>
+          <attvalue for="weighted degree" value="28.0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="21"></attvalue>
+          <attvalue for="eigencentrality" value="0.017751785460601993"></attvalue>
+          <attvalue for="modularity_class" value="6"></attvalue>
+          <attvalue for="componentnumber" value="4"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="-545.2453" y="548.92816"></viz:position>
@@ -444,6 +1071,17 @@
       <node id="Mehrabi A" label="Mehrabi A">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="7"></attvalue>
+          <attvalue for="weighted degree" value="28.0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="21"></attvalue>
+          <attvalue for="eigencentrality" value="0.017751785460601993"></attvalue>
+          <attvalue for="modularity_class" value="6"></attvalue>
+          <attvalue for="componentnumber" value="4"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="-425.33627" y="678.06805"></viz:position>
@@ -452,6 +1090,17 @@
       <node id="Oweira H" label="Oweira H">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="7"></attvalue>
+          <attvalue for="weighted degree" value="28.0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="21"></attvalue>
+          <attvalue for="eigencentrality" value="0.017751785460601993"></attvalue>
+          <attvalue for="modularity_class" value="6"></attvalue>
+          <attvalue for="componentnumber" value="4"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="-257.23547" y="704.32916"></viz:position>
@@ -460,6 +1109,17 @@
       <node id="Petrausch U" label="Petrausch U">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="7"></attvalue>
+          <attvalue for="weighted degree" value="28.0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="21"></attvalue>
+          <attvalue for="eigencentrality" value="0.017751785460601993"></attvalue>
+          <attvalue for="modularity_class" value="6"></attvalue>
+          <attvalue for="componentnumber" value="4"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="-445.6163" y="849.65405"></viz:position>
@@ -468,6 +1128,17 @@
       <node id="Schmidt J" label="Schmidt J">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="7"></attvalue>
+          <attvalue for="weighted degree" value="28.0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="21"></attvalue>
+          <attvalue for="eigencentrality" value="0.017751785460601993"></attvalue>
+          <attvalue for="modularity_class" value="6"></attvalue>
+          <attvalue for="componentnumber" value="4"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="-587.09845" y="752.349"></viz:position>
@@ -476,6 +1147,17 @@
       <node id="Schöb O" label="Schöb O">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="7"></attvalue>
+          <attvalue for="weighted degree" value="28.0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="21"></attvalue>
+          <attvalue for="eigencentrality" value="0.017751785460601993"></attvalue>
+          <attvalue for="modularity_class" value="6"></attvalue>
+          <attvalue for="componentnumber" value="4"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="-695.12915" y="634.805"></viz:position>
@@ -484,6 +1166,17 @@
       <node id="Weichert W" label="Weichert W">
         <attvalues>
           <attvalue for="count" value="8"></attvalue>
+          <attvalue for="degree" value="10"></attvalue>
+          <attvalue for="weighted degree" value="15.0"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.36213991769547327"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4274621212121211"></attvalue>
+          <attvalue for="betweenesscentrality" value="40.58437720331447"></attvalue>
+          <attvalue for="clustering" value="0.7333333333333333"></attvalue>
+          <attvalue for="triangles" value="33"></attvalue>
+          <attvalue for="eigencentrality" value="0.07056161187828014"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="32.5"></viz:size>
         <viz:position x="-345.77167" y="-569.4986"></viz:position>
@@ -492,6 +1185,17 @@
       <node id="Kurtulmus B" label="Kurtulmus B">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="weighted degree" value="7.0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+          <attvalue for="eigencentrality" value="0.0016501764170044223"></attvalue>
+          <attvalue for="modularity_class" value="0"></attvalue>
+          <attvalue for="componentnumber" value="1"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="844.54443" y="463.84305"></viz:position>
@@ -500,6 +1204,17 @@
       <node id="Louwen F" label="Louwen F">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+          <attvalue for="weighted degree" value="9.0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.20229885057471264"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.24193722943722937"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="3"></attvalue>
+          <attvalue for="eigencentrality" value="0.005696213792697837"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="-863.1078" y="-357.22113"></viz:position>
@@ -508,6 +1223,17 @@
       <node id="Krämer A" label="Krämer A">
         <attvalues>
           <attvalue for="count" value="9"></attvalue>
+          <attvalue for="degree" value="8"></attvalue>
+          <attvalue for="weighted degree" value="14.0"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3188405797101449"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.3886363636363636"></attvalue>
+          <attvalue for="betweenesscentrality" value="911.1423396280361"></attvalue>
+          <attvalue for="clustering" value="0.35714285714285715"></attvalue>
+          <attvalue for="triangles" value="10"></attvalue>
+          <attvalue for="eigencentrality" value="0.020230354516510153"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="37.0"></viz:size>
         <viz:position x="-665.4714" y="-310.3677"></viz:position>
@@ -516,6 +1242,17 @@
       <node id="Löffler H" label="Löffler H">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+          <attvalue for="weighted degree" value="6.0"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3044982698961938"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.3450757575757575"></attvalue>
+          <attvalue for="betweenesscentrality" value="94.2439702196668"></attvalue>
+          <attvalue for="clustering" value="0.6666666666666666"></attvalue>
+          <attvalue for="triangles" value="2"></attvalue>
+          <attvalue for="eigencentrality" value="0.011012802034041907"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="-532.2362" y="33.002754"></viz:position>
@@ -524,6 +1261,17 @@
       <node id="Strebhardt K" label="Strebhardt K">
         <attvalues>
           <attvalue for="count" value="7"></attvalue>
+          <attvalue for="degree" value="10"></attvalue>
+          <attvalue for="weighted degree" value="17.0"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.25882352941176473"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.34242424242424224"></attvalue>
+          <attvalue for="betweenesscentrality" value="292.8720536188957"></attvalue>
+          <attvalue for="clustering" value="0.4"></attvalue>
+          <attvalue for="triangles" value="18"></attvalue>
+          <attvalue for="eigencentrality" value="0.019653857981668577"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="28.0"></viz:size>
         <viz:position x="-776.0348" y="-186.54243"></viz:position>
@@ -532,6 +1280,17 @@
       <node id="Penzel R" label="Penzel R">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="11"></attvalue>
+          <attvalue for="weighted degree" value="20.0"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3534136546184739"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.42481060606060606"></attvalue>
+          <attvalue for="betweenesscentrality" value="76.18583525372195"></attvalue>
+          <attvalue for="clustering" value="0.7454545454545455"></attvalue>
+          <attvalue for="triangles" value="41"></attvalue>
+          <attvalue for="eigencentrality" value="0.07484902669223115"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="-148.49936" y="-351.4755"></viz:position>
@@ -540,6 +1299,17 @@
       <node id="Kirchner T" label="Kirchner T">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="weighted degree" value="2.0"></attvalue>
+          <attvalue for="eccentricity" value="8.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.2626865671641791"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.3292884199134198"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+          <attvalue for="eigencentrality" value="0.07299724293488029"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="148.49886" y="-603.2304"></viz:position>
@@ -548,6 +1318,17 @@
       <node id="Heppt MV" label="Heppt MV">
         <attvalues>
           <attvalue for="count" value="5"></attvalue>
+          <attvalue for="degree" value="16"></attvalue>
+          <attvalue for="weighted degree" value="28.0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3308270676691729"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.45900974025974056"></attvalue>
+          <attvalue for="betweenesscentrality" value="26.421071793703376"></attvalue>
+          <attvalue for="clustering" value="0.75"></attvalue>
+          <attvalue for="triangles" value="90"></attvalue>
+          <attvalue for="eigencentrality" value="0.5800765583115636"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="19.0"></viz:size>
         <viz:position x="62.052616" y="-128.80061"></viz:position>
@@ -556,6 +1337,17 @@
       <node id="Buder-Bakhaya K" label="Buder-Bakhaya K">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="5"></attvalue>
+          <attvalue for="weighted degree" value="7.0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.31316725978647686"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.3934794372294372"></attvalue>
+          <attvalue for="betweenesscentrality" value="1.24"></attvalue>
+          <attvalue for="clustering" value="0.7"></attvalue>
+          <attvalue for="triangles" value="7"></attvalue>
+          <attvalue for="eigencentrality" value="0.13288749620123666"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="-108.68811" y="-166.7155"></viz:position>
@@ -564,6 +1356,17 @@
       <node id="Glimm H" label="Glimm H">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="12"></attvalue>
+          <attvalue for="weighted degree" value="17.0"></attvalue>
+          <attvalue for="eccentricity" value="4.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.39285714285714285"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4611742424242424"></attvalue>
+          <attvalue for="betweenesscentrality" value="1083.266522894703"></attvalue>
+          <attvalue for="clustering" value="0.6212121212121212"></attvalue>
+          <attvalue for="triangles" value="41"></attvalue>
+          <attvalue for="eigencentrality" value="0.08418343880592379"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="-471.76053" y="-425.25742"></viz:position>
@@ -572,6 +1375,17 @@
       <node id="Sanhaji M" label="Sanhaji M">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="6"></attvalue>
+          <attvalue for="weighted degree" value="12.0"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.25142857142857145"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.3147727272727271"></attvalue>
+          <attvalue for="betweenesscentrality" value="32.33333333333337"></attvalue>
+          <attvalue for="clustering" value="0.6666666666666666"></attvalue>
+          <attvalue for="triangles" value="10"></attvalue>
+          <attvalue for="eigencentrality" value="0.01233998930652367"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="-812.13495" y="-499.08917"></viz:position>
@@ -580,6 +1394,17 @@
       <node id="Subklewe M" label="Subklewe M">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="weighted degree" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="8"></attvalue>
+          <attvalue for="componentnumber" value="5"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="882.5413" y="-370.31122"></viz:position>
@@ -588,6 +1413,17 @@
       <node id="Ascierto PA" label="Ascierto PA">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="9"></attvalue>
+          <attvalue for="weighted degree" value="13.0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3142857142857143"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.41336580086580094"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.4533295136236312"></attvalue>
+          <attvalue for="clustering" value="0.9166666666666666"></attvalue>
+          <attvalue for="triangles" value="33"></attvalue>
+          <attvalue for="eigencentrality" value="0.25016859434936983"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="932.5379" y="113.96665"></viz:position>
@@ -596,6 +1432,17 @@
       <node id="Maio M" label="Maio M">
         <attvalues>
           <attvalue for="count" value="5"></attvalue>
+          <attvalue for="degree" value="16"></attvalue>
+          <attvalue for="weighted degree" value="27.0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3295880149812734"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.46166125541125563"></attvalue>
+          <attvalue for="betweenesscentrality" value="9.791076407252875"></attvalue>
+          <attvalue for="clustering" value="0.6583333333333333"></attvalue>
+          <attvalue for="triangles" value="79"></attvalue>
+          <attvalue for="eigencentrality" value="0.5101834906526761"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="19.0"></viz:size>
         <viz:position x="760.4603" y="-52.603767"></viz:position>
@@ -604,6 +1451,17 @@
       <node id="Steins M" label="Steins M">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="9"></attvalue>
+          <attvalue for="weighted degree" value="10.0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.32234432234432236"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4237824675324676"></attvalue>
+          <attvalue for="betweenesscentrality" value="80.24343434343432"></attvalue>
+          <attvalue for="clustering" value="0.6111111111111112"></attvalue>
+          <attvalue for="triangles" value="22"></attvalue>
+          <attvalue for="eigencentrality" value="0.3033170208670989"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="342.3292" y="576.07416"></viz:position>
@@ -612,6 +1470,17 @@
       <node id="Garbe C" label="Garbe C">
         <attvalues>
           <attvalue for="count" value="5"></attvalue>
+          <attvalue for="degree" value="19"></attvalue>
+          <attvalue for="weighted degree" value="38.0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3424124513618677"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.48741883116883145"></attvalue>
+          <attvalue for="betweenesscentrality" value="10.53111246109698"></attvalue>
+          <attvalue for="clustering" value="0.7309941520467836"></attvalue>
+          <attvalue for="triangles" value="125"></attvalue>
+          <attvalue for="eigencentrality" value="0.7147906553738379"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="19.0"></viz:size>
         <viz:position x="589.0699" y="272.54077"></viz:position>
@@ -620,6 +1489,17 @@
       <node id="Lebbé C" label="Lebbé C">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="9"></attvalue>
+          <attvalue for="weighted degree" value="16.0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3176895306859206"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.41620670995671"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.35952935952935955"></attvalue>
+          <attvalue for="clustering" value="0.9722222222222222"></attvalue>
+          <attvalue for="triangles" value="35"></attvalue>
+          <attvalue for="eigencentrality" value="0.24108711353162912"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="928.1585" y="-195.05597"></viz:position>
@@ -628,6 +1508,17 @@
       <node id="Wolchok JD" label="Wolchok JD">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="10"></attvalue>
+          <attvalue for="weighted degree" value="17.0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.32"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4237824675324676"></attvalue>
+          <attvalue for="betweenesscentrality" value="1.192007992007992"></attvalue>
+          <attvalue for="clustering" value="0.8666666666666667"></attvalue>
+          <attvalue for="triangles" value="39"></attvalue>
+          <attvalue for="eigencentrality" value="0.28012533143531965"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="917.2916" y="275.7407"></viz:position>
@@ -636,6 +1527,17 @@
       <node id="Weide B" label="Weide B">
         <attvalues>
           <attvalue for="count" value="5"></attvalue>
+          <attvalue for="degree" value="18"></attvalue>
+          <attvalue for="weighted degree" value="27.0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.33976833976833976"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4798430735930738"></attvalue>
+          <attvalue for="betweenesscentrality" value="6.638919651675808"></attvalue>
+          <attvalue for="clustering" value="0.7581699346405228"></attvalue>
+          <attvalue for="triangles" value="116"></attvalue>
+          <attvalue for="eigencentrality" value="0.6873193086665638"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="19.0"></viz:size>
         <viz:position x="588.3567" y="-113.70474"></viz:position>
@@ -644,6 +1546,17 @@
       <node id="Cheng X" label="Cheng X">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="weighted degree" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="9"></attvalue>
+          <attvalue for="componentnumber" value="6"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="690.2781" y="-678.26184"></viz:position>
@@ -652,6 +1565,17 @@
       <node id="Eigentler TK" label="Eigentler TK">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="14"></attvalue>
+          <attvalue for="weighted degree" value="23.0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3283582089552239"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4521915584415586"></attvalue>
+          <attvalue for="betweenesscentrality" value="8.885465412723477"></attvalue>
+          <attvalue for="clustering" value="0.7252747252747253"></attvalue>
+          <attvalue for="triangles" value="66"></attvalue>
+          <attvalue for="eigencentrality" value="0.49772660170403005"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="155.76578" y="541.15155"></viz:position>
@@ -660,6 +1584,17 @@
       <node id="Tietze JK" label="Tietze JK">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="17"></attvalue>
+          <attvalue for="weighted degree" value="35.0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.33460076045627374"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4694264069264072"></attvalue>
+          <attvalue for="betweenesscentrality" value="5.268136951710805"></attvalue>
+          <attvalue for="clustering" value="0.8014705882352942"></attvalue>
+          <attvalue for="triangles" value="109"></attvalue>
+          <attvalue for="eigencentrality" value="0.645231811638348"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="-71.34715" y="323.34793"></viz:position>
@@ -668,6 +1603,17 @@
       <node id="Platten M" label="Platten M">
         <attvalues>
           <attvalue for="count" value="6"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="weighted degree" value="4.0"></attvalue>
+          <attvalue for="eccentricity" value="8.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.20137299771167047"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.2289096320346319"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+          <attvalue for="eigencentrality" value="0.0025240206297178205"></attvalue>
+          <attvalue for="modularity_class" value="10"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="23.5"></viz:size>
         <viz:position x="547.64514" y="-769.357"></viz:position>
@@ -676,6 +1622,17 @@
       <node id="Wick W" label="Wick W">
         <attvalues>
           <attvalue for="count" value="7"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+          <attvalue for="weighted degree" value="8.0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.24929178470254956"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.2849567099567098"></attvalue>
+          <attvalue for="betweenesscentrality" value="42.00000000000001"></attvalue>
+          <attvalue for="clustering" value="0.6666666666666666"></attvalue>
+          <attvalue for="triangles" value="2"></attvalue>
+          <attvalue for="eigencentrality" value="0.0044882586185198275"></attvalue>
+          <attvalue for="modularity_class" value="10"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="28.0"></viz:size>
         <viz:position x="795.8004" y="-528.64453"></viz:position>
@@ -684,6 +1641,17 @@
       <node id="Preusser M" label="Preusser M">
         <attvalues>
           <attvalue for="count" value="6"></attvalue>
+          <attvalue for="degree" value="5"></attvalue>
+          <attvalue for="weighted degree" value="11.0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.25071225071225073"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.29632034632034615"></attvalue>
+          <attvalue for="betweenesscentrality" value="214.00000000000003"></attvalue>
+          <attvalue for="clustering" value="0.3"></attvalue>
+          <attvalue for="triangles" value="3"></attvalue>
+          <attvalue for="eigencentrality" value="0.0059704303988754506"></attvalue>
+          <attvalue for="modularity_class" value="10"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="23.5"></viz:size>
         <viz:position x="412.91653" y="-852.63873"></viz:position>
@@ -692,6 +1660,17 @@
       <node id="Hodi FS" label="Hodi FS">
         <attvalues>
           <attvalue for="count" value="5"></attvalue>
+          <attvalue for="degree" value="10"></attvalue>
+          <attvalue for="weighted degree" value="18.0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.32116788321167883"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.425676406926407"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.8128588731529908"></attvalue>
+          <attvalue for="clustering" value="0.9111111111111111"></attvalue>
+          <attvalue for="triangles" value="41"></attvalue>
+          <attvalue for="eigencentrality" value="0.29034015865887686"></attvalue>
+          <attvalue for="modularity_class" value="1"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="19.0"></viz:size>
         <viz:position x="941.4223" y="-37.08379"></viz:position>
@@ -700,6 +1679,17 @@
       <node id="Berghoff AS" label="Berghoff AS">
         <attvalues>
           <attvalue for="count" value="5"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+          <attvalue for="weighted degree" value="7.0"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3247232472324723"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.3717803030303028"></attvalue>
+          <attvalue for="betweenesscentrality" value="415.00000000000006"></attvalue>
+          <attvalue for="clustering" value="0.3333333333333333"></attvalue>
+          <attvalue for="triangles" value="2"></attvalue>
+          <attvalue for="eigencentrality" value="0.02166326811568934"></attvalue>
+          <attvalue for="modularity_class" value="10"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="19.0"></viz:size>
         <viz:position x="602.3617" y="-542.3597"></viz:position>
@@ -708,6 +1698,17 @@
       <node id="Ehemann V" label="Ehemann V">
         <attvalues>
           <attvalue for="count" value="8"></attvalue>
+          <attvalue for="degree" value="6"></attvalue>
+          <attvalue for="weighted degree" value="11.0"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3076923076923077"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.364772727272727"></attvalue>
+          <attvalue for="betweenesscentrality" value="271.70575360140356"></attvalue>
+          <attvalue for="clustering" value="0.26666666666666666"></attvalue>
+          <attvalue for="triangles" value="4"></attvalue>
+          <attvalue for="eigencentrality" value="0.01967352135441397"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="32.5"></viz:size>
         <viz:position x="-374.38266" y="96.12276"></viz:position>
@@ -716,6 +1717,17 @@
       <node id="Kayser K" label="Kayser K">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="weighted degree" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="11"></attvalue>
+          <attvalue for="componentnumber" value="7"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="-140.28566" y="950.9959"></viz:position>
@@ -724,6 +1736,17 @@
       <node id="Falk S" label="Falk S">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="weighted degree" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="12"></attvalue>
+          <attvalue for="componentnumber" value="8"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="-278.33" y="-904.4756"></viz:position>
@@ -732,6 +1755,17 @@
       <node id="Schmitt A" label="Schmitt A">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="weighted degree" value="2.0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.205607476635514"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.2374729437229436"></attvalue>
+          <attvalue for="betweenesscentrality" value="87.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.002060764092679814"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="-798.57513" y="508.94843"></viz:position>
@@ -740,6 +1774,17 @@
       <node id="Umansky V" label="Umansky V">
         <attvalues>
           <attvalue for="count" value="5"></attvalue>
+          <attvalue for="degree" value="6"></attvalue>
+          <attvalue for="weighted degree" value="8.0"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.36363636363636365"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.42878787878787855"></attvalue>
+          <attvalue for="betweenesscentrality" value="202.87606246814008"></attvalue>
+          <attvalue for="clustering" value="0.2"></attvalue>
+          <attvalue for="triangles" value="3"></attvalue>
+          <attvalue for="eigencentrality" value="0.06426997117460458"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="19.0"></viz:size>
         <viz:position x="-10.582841" y="-471.67133"></viz:position>
@@ -748,6 +1793,17 @@
       <node id="Kloor M" label="Kloor M">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="9"></attvalue>
+          <attvalue for="weighted degree" value="10.0"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.34782608695652173"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.42026515151515126"></attvalue>
+          <attvalue for="betweenesscentrality" value="63.10950813376508"></attvalue>
+          <attvalue for="clustering" value="0.6944444444444444"></attvalue>
+          <attvalue for="triangles" value="25"></attvalue>
+          <attvalue for="eigencentrality" value="0.07068129423025407"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="-275.3662" y="-207.76361"></viz:position>
@@ -756,6 +1812,17 @@
       <node id="Becker S" label="Becker S">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="5"></attvalue>
+          <attvalue for="weighted degree" value="9.0"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.25071225071225073"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.3090909090909089"></attvalue>
+          <attvalue for="betweenesscentrality" value="172.0"></attvalue>
+          <attvalue for="clustering" value="0.4"></attvalue>
+          <attvalue for="triangles" value="4"></attvalue>
+          <attvalue for="eigencentrality" value="0.009561530378617254"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="-705.6364" y="-635.4273"></viz:position>
@@ -764,6 +1831,17 @@
       <node id="Gebhardt C" label="Gebhardt C">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="13"></attvalue>
+          <attvalue for="weighted degree" value="15.0"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3826086956521739"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4825757575757576"></attvalue>
+          <attvalue for="betweenesscentrality" value="64.33596472065726"></attvalue>
+          <attvalue for="clustering" value="0.6025641025641025"></attvalue>
+          <attvalue for="triangles" value="47"></attvalue>
+          <attvalue for="eigencentrality" value="0.41853971008549756"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="330.21338" y="-343.60486"></viz:position>
@@ -772,6 +1850,17 @@
       <node id="Reck M" label="Reck M">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+          <attvalue for="weighted degree" value="4.0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.2913907284768212"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.35711580086580064"></attvalue>
+          <attvalue for="betweenesscentrality" value="17.816666666666674"></attvalue>
+          <attvalue for="clustering" value="0.3333333333333333"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+          <attvalue for="eigencentrality" value="0.05996359972742896"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="227.56763" y="718.08826"></viz:position>
@@ -780,6 +1869,17 @@
       <node id="Paz-Ares L" label="Paz-Ares L">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="weighted degree" value="4.0"></attvalue>
+          <attvalue for="eccentricity" value="8.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.24581005586592178"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.294250541125541"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+          <attvalue for="eigencentrality" value="0.019792035417921648"></attvalue>
+          <attvalue for="modularity_class" value="13"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="0.6363902" y="656.3721"></viz:position>
@@ -788,6 +1888,17 @@
       <node id="Beckhove P" label="Beckhove P">
         <attvalues>
           <attvalue for="count" value="5"></attvalue>
+          <attvalue for="degree" value="6"></attvalue>
+          <attvalue for="weighted degree" value="8.0"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.36213991769547327"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.43143939393939396"></attvalue>
+          <attvalue for="betweenesscentrality" value="19.51385685570468"></attvalue>
+          <attvalue for="clustering" value="0.6"></attvalue>
+          <attvalue for="triangles" value="9"></attvalue>
+          <attvalue for="eigencentrality" value="0.10571263772458966"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="19.0"></viz:size>
         <viz:position x="448.43015" y="-615.44116"></viz:position>
@@ -796,6 +1907,17 @@
       <node id="Schneeweiss A" label="Schneeweiss A">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="weighted degree" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="14"></attvalue>
+          <attvalue for="componentnumber" value="9"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="-636.9452" y="-476.10565"></viz:position>
@@ -804,6 +1926,17 @@
       <node id="Leverkus M" label="Leverkus M">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="12"></attvalue>
+          <attvalue for="weighted degree" value="23.0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3384615384615385"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.44802489177489196"></attvalue>
+          <attvalue for="betweenesscentrality" value="77.47252816327118"></attvalue>
+          <attvalue for="clustering" value="0.8333333333333334"></attvalue>
+          <attvalue for="triangles" value="55"></attvalue>
+          <attvalue for="eigencentrality" value="0.4639781422424579"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="-9.821962" y="478.14566"></viz:position>
@@ -812,6 +1945,17 @@
       <node id="Marx A" label="Marx A">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="weighted degree" value="2.0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.28664495114006516"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.33593073593073575"></attvalue>
+          <attvalue for="betweenesscentrality" value="37.396942586137634"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.026350237409727778"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="-167.77438" y="553.8188"></viz:position>
@@ -820,6 +1964,17 @@
       <node id="Keller U" label="Keller U">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="6.555255299832404E-4"></attvalue>
+          <attvalue for="modularity_class" value="15"></attvalue>
+          <attvalue for="componentnumber" value="10"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="-360.54135" y="257.9935"></viz:position>
@@ -828,6 +1983,17 @@
       <node id="Dimitrakopoulou-Strauss A" label="Dimitrakopoulou-Strauss A">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="5"></attvalue>
+          <attvalue for="weighted degree" value="6.0"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.36363636363636365"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4295454545454546"></attvalue>
+          <attvalue for="betweenesscentrality" value="8.20603935568872"></attvalue>
+          <attvalue for="clustering" value="0.7"></attvalue>
+          <attvalue for="triangles" value="7"></attvalue>
+          <attvalue for="eigencentrality" value="0.1258934092109786"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="303.30197" y="-517.5497"></viz:position>
@@ -836,6 +2002,17 @@
       <node id="Meissner M" label="Meissner M">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="11"></attvalue>
+          <attvalue for="weighted degree" value="18.0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3235294117647059"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4287067099567101"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.13942307692307693"></attvalue>
+          <attvalue for="clustering" value="0.9636363636363636"></attvalue>
+          <attvalue for="triangles" value="53"></attvalue>
+          <attvalue for="eigencentrality" value="0.43994464968439634"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="538.2351" y="-268.43658"></viz:position>
@@ -844,6 +2021,17 @@
       <node id="Lasitschka F" label="Lasitschka F">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="12"></attvalue>
+          <attvalue for="weighted degree" value="18.0"></attvalue>
+          <attvalue for="eccentricity" value="5.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3697478991596639"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4435606060606062"></attvalue>
+          <attvalue for="betweenesscentrality" value="31.154402479858128"></attvalue>
+          <attvalue for="clustering" value="0.7272727272727273"></attvalue>
+          <attvalue for="triangles" value="48"></attvalue>
+          <attvalue for="eigencentrality" value="0.08739845099838343"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="-186.54681" y="-731.02734"></viz:position>
@@ -852,6 +2040,17 @@
       <node id="Grüllich C" label="Grüllich C">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="weighted degree" value="4.0"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.31654676258992803"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.3537878787878785"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+          <attvalue for="eigencentrality" value="0.02083611406677047"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="-26.630348" y="-820.5217"></viz:position>
@@ -860,6 +2059,17 @@
       <node id="Fulda S" label="Fulda S">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="1.0"></attvalue>
+          <attvalue for="closnesscentrality" value="1.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="1.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="6.555255299832404E-4"></attvalue>
+          <attvalue for="modularity_class" value="15"></attvalue>
+          <attvalue for="componentnumber" value="10"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="-399.00595" y="-87.56476"></viz:position>
@@ -868,6 +2078,17 @@
       <node id="Schneider G" label="Schneider G">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="weighted degree" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="16"></attvalue>
+          <attvalue for="componentnumber" value="11"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="-885.85724" y="368.95013"></viz:position>
@@ -876,6 +2097,17 @@
       <node id="Ho AD" label="Ho AD">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+          <attvalue for="weighted degree" value="5.0"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.2565597667638484"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.3075757575757574"></attvalue>
+          <attvalue for="betweenesscentrality" value="185.13991426530123"></attvalue>
+          <attvalue for="clustering" value="0.16666666666666666"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+          <attvalue for="eigencentrality" value="0.0066586440175541136"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="-942.3971" y="196.5063"></viz:position>
@@ -884,6 +2116,17 @@
       <node id="Hofmann TG" label="Hofmann TG">
         <attvalues>
           <attvalue for="count" value="5"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="weighted degree" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="17"></attvalue>
+          <attvalue for="componentnumber" value="12"></attvalue>
         </attvalues>
         <viz:size value="19.0"></viz:size>
         <viz:position x="-118.2641" y="-955.32587"></viz:position>
@@ -892,6 +2135,17 @@
       <node id="Debus J" label="Debus J">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="4"></attvalue>
+          <attvalue for="weighted degree" value="5.0"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.26112759643916916"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.31401515151515125"></attvalue>
+          <attvalue for="betweenesscentrality" value="178.75360441759818"></attvalue>
+          <attvalue for="clustering" value="0.16666666666666666"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+          <attvalue for="eigencentrality" value="0.007829602204833858"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="-544.9344" y="237.74011"></viz:position>
@@ -900,6 +2154,17 @@
       <node id="Schirrmacher V" label="Schirrmacher V">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="2"></attvalue>
+          <attvalue for="weighted degree" value="3.0"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.28115015974440893"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.3155303030303029"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+          <attvalue for="eigencentrality" value="0.006865897742761606"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="-475.40027" y="-253.48592"></viz:position>
@@ -908,6 +2173,17 @@
       <node id="Offringa R" label="Offringa R">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="3"></attvalue>
+          <attvalue for="weighted degree" value="3.0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3076923076923077"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.3665854978354975"></attvalue>
+          <attvalue for="betweenesscentrality" value="2.533880471380471"></attvalue>
+          <attvalue for="clustering" value="0.3333333333333333"></attvalue>
+          <attvalue for="triangles" value="1"></attvalue>
+          <attvalue for="eigencentrality" value="0.0488487017275639"></attvalue>
+          <attvalue for="modularity_class" value="2"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="305.6165" y="-711.11395"></viz:position>
@@ -916,6 +2192,17 @@
       <node id="Trumpp A" label="Trumpp A">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="1"></attvalue>
+          <attvalue for="weighted degree" value="1.0"></attvalue>
+          <attvalue for="eccentricity" value="8.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.170873786407767"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.19030032467532457"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="8.559603370059933E-4"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="-652.3658" y="406.77628"></viz:position>
@@ -924,6 +2211,17 @@
       <node id="Benner A" label="Benner A">
         <attvalues>
           <attvalue for="count" value="5"></attvalue>
+          <attvalue for="degree" value="7"></attvalue>
+          <attvalue for="weighted degree" value="7.0"></attvalue>
+          <attvalue for="eccentricity" value="6.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.30662020905923343"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.3689393939393938"></attvalue>
+          <attvalue for="betweenesscentrality" value="177.29480306071628"></attvalue>
+          <attvalue for="clustering" value="0.19047619047619047"></attvalue>
+          <attvalue for="triangles" value="4"></attvalue>
+          <attvalue for="eigencentrality" value="0.018325640191007225"></attvalue>
+          <attvalue for="modularity_class" value="7"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="19.0"></viz:size>
         <viz:position x="-236.65425" y="-3.239432"></viz:position>
@@ -932,6 +2230,17 @@
       <node id="Trojan J" label="Trojan J">
         <attvalues>
           <attvalue for="count" value="4"></attvalue>
+          <attvalue for="degree" value="6"></attvalue>
+          <attvalue for="weighted degree" value="6.0"></attvalue>
+          <attvalue for="eccentricity" value="7.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.3154121863799283"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.4010551948051948"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="1.0"></attvalue>
+          <attvalue for="triangles" value="15"></attvalue>
+          <attvalue for="eigencentrality" value="0.2508963513407221"></attvalue>
+          <attvalue for="modularity_class" value="4"></attvalue>
+          <attvalue for="componentnumber" value="0"></attvalue>
         </attvalues>
         <viz:size value="14.5"></viz:size>
         <viz:position x="-192.0042" y="186.09723"></viz:position>
@@ -940,6 +2249,17 @@
       <node id="Efferth T" label="Efferth T">
         <attvalues>
           <attvalue for="count" value="5"></attvalue>
+          <attvalue for="degree" value="0"></attvalue>
+          <attvalue for="weighted degree" value="0.0"></attvalue>
+          <attvalue for="eccentricity" value="0.0"></attvalue>
+          <attvalue for="closnesscentrality" value="0.0"></attvalue>
+          <attvalue for="harmonicclosnesscentrality" value="0.0"></attvalue>
+          <attvalue for="betweenesscentrality" value="0.0"></attvalue>
+          <attvalue for="clustering" value="0.0"></attvalue>
+          <attvalue for="triangles" value="0"></attvalue>
+          <attvalue for="eigencentrality" value="0.0"></attvalue>
+          <attvalue for="modularity_class" value="18"></attvalue>
+          <attvalue for="componentnumber" value="13"></attvalue>
         </attvalues>
         <viz:size value="19.0"></viz:size>
         <viz:position x="146.45561" y="-783.27545"></viz:position>
