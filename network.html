@@ -4,8 +4,10 @@
   <style>
   #sigma-container-big{
     position:relative;
-    width:500px;
-    height:500px;
+    width:100%;
+    height:100%;
+    top: 0px;
+    left: 0px;
   }
   #explanation{
     position:relative;
@@ -41,8 +43,8 @@ sigma.classes.graph.addMethod('neighbors', function(nodeId) {
       // will contain the graph:
       container: 'sigma-container-big',
       settings: {
-      minNodeSize: 2,
-      maxNodeSize: 10,
+      minNodeSize: 5,
+      maxNodeSize: 20,
       /*minEdgeSize: 0.1,
       maxEdgeSize: 1,
       enableEdgeHovering: true,
