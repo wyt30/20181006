@@ -105,6 +105,7 @@ sigma.classes.graph.addMethod('neighbors', function(nodeId) {
           //explanation += result;
           var explanation = "";
           explanation += "<p><br/>Degree: " + e.data.node.attributes.degree;
+          explanation += "<p><br/>Count: " + e.data.node.attributes.count;
           explanation += "<br/>Weighted degree: " + e.data.node.attributes["weighted degree"];
           explanation += "<br/>Eccentricity: " + e.data.node.attributes.eccentricity;
           explanation += "<br/>Closness centrality: " + parseFloat(e.data.node.attributes.closnesscentrality).toFixed(2);
