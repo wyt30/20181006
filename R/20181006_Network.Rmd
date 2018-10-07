@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```{r}
 library(tidyverse);
 setwd("D:/R/20181006");
-publications <- read_csv("pubmed_result.csv") %>% data.frame();
+publications <- read_csv("pubmed_result2.csv") %>% data.frame();
 ```
 
 ## Define nodes, and rank authors by number of publications
