@@ -104,13 +104,18 @@ sigma.classes.graph.addMethod('neighbors', function(nodeId) {
 
           //explanation += result;
           var explanation = "";
-          explanation += "<p><br/>Degree: " + e.data.node.attributes.degree;
-          explanation += "<p><br/>Count: " + e.data.node.attributes.count;
-          explanation += "<br/>Weighted degree: " + e.data.node.attributes["weighted degree"];
-          explanation += "<br/>Eccentricity: " + e.data.node.attributes.eccentricity;
-          explanation += "<br/>Closness centrality: " + parseFloat(e.data.node.attributes.closnesscentrality).toFixed(2);
-          explanation += "<br/>Betweeness centrality: " + e.data.node.attributes.betweenesscentrality.toFixed(2);
-          explanation += "<br/>Clustering: " + e.data.node.attributes.clustering.toFixed(2);
+          //explanation += "<p><br/>Collaborations: " + e.data.node.attributes.degree;
+          explanation += "<br/>Name: " + e.data.node.attributes.Name;
+          explanation += "<br/>Publications: " + e.data.node.attributes.count;
+          explanation += "<br/>Collaborations: " + e.data.node.attributes["weighted degree"];
+          explanation += "<br/>Affiliation: " + e.data.node.attributes.Affiliation;
+          explanation += "<br/>Location: " + e.data.node.attributes.Location;
+          explanation += "<br/>Focus: " + e.data.node.attributes.Focus;
+          explanation += "<br/>Website: " + "<a href='"+ e.data.note.attributes["Website"] + "'>" + e.data.note.attributes["Website"] + "</a>";  
+          //explanation += "<br/>Eccentricity: " + e.data.node.attributes.eccentricity;
+          //explanation += "<br/>Closness centrality: " + parseFloat(e.data.node.attributes.closnesscentrality).toFixed(2);
+          //explanation += "<br/>Betweeness centrality: " + e.data.node.attributes.betweenesscentrality.toFixed(2);
+          //explanation += "<br/>Clustering: " + e.data.node.attributes.clustering.toFixed(2);
           //explanation += "<br/>Linked to: " + (linkedCharacters.length -1 )  + " characters";
           $("#explanation").html(explanation);
           $("#explanation").show();
